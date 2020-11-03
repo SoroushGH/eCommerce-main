@@ -1,0 +1,39 @@
+.BoxShadow{
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.accessory-info p:nth-child(1) {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:0.4px;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    margin: 0 ;
+    padding-top: 100px;
+}
+.accessory-info p:nth-child(2) {
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing:0.4px;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    color: black;
+}
+.accessory-info p:nth-child(2) a:hover{
+    color:#FF4E00;
+}
+
+.accessory-info p:nth-child(3) {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height:25px;
+    vertical-align:baseline;
+    letter-spacing:0.4px;
+    word-spacing:0.4px;
+    padding: 0 80px;
+}

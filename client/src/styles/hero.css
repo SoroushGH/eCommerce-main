@@ -1,0 +1,57 @@
+.hero{
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    border: 1px solid  #485167;
+}
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url("https://res.cloudinary.com/img-cloud-repo/image/upload/v1604096024/samples/ecommerce/other/hero_tbjqpv.jpg");
+    height: 900px;
+    width: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text h1 {
+    font-size: 10vh;
+    font-family: 'Dancing Script', cursive;
+}
+.hero-text p {
+    font-family: 'Dancing Script', cursive;
+     font-size: 3vh;
+}
+
+.slang-text p{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 23px;
+    font-weight:300;
+    line-height:30px;
+    letter-spacing:0.4px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.Cormorant-Garamond{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+  
+}

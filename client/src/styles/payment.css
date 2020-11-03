@@ -1,0 +1,51 @@
+.img{
+    width: 100px;
+}
+input{  
+    border: 0;
+    width: 25px;
+}
+.payment{
+    margin-bottom: 10%;
+}
+.payment h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:0.4px;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    margin: 0 ;
+    padding: 100px 0 50px 0;
+}
+.payment h2, table{
+    font-family: 'Raleway', sans-serif;
+    line-height:25px;
+    vertical-align:baseline;
+    letter-spacing:0.4px;
+}
+.count {
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.product-table{
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.paymentBtn{
+ background-color: #FF6900 !important;
+ border-color:#FF6900 !important;
+}
+.invoice{
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.invoice table{
+    border: none;
+}
+.total{
+    font-size: 20px;
+    font-weight: bold;
+}

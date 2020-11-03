@@ -1,0 +1,30 @@
+.about {
+     padding: 5rem 0;
+}
+.about h1{ 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    /* text-transform:uppercase; */
+    text-align: center;
+    letter-spacing:0.4px;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    margin: 0 ;
+    padding: 50px 0;
+}
+#term, #privacy, #return {
+padding-bottom: 5rem;
+}
+
+.about p{
+font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height:31px;
+    letter-spacing:0.4px;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    color: black;
+}

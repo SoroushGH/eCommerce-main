@@ -1,0 +1,33 @@
+.footer {
+    font-family: 'Raleway', sans-serif;
+    background-color:#C7CED6;
+    border-top: 0.5px solid #485167;
+    /* background-image: url("https://res.cloudinary.com/img-cloud-repo/image/upload/v1604176811/samples/ecommerce/other/logo_yirpxx.png") ; 
+    background-repeat: no-repeat;  */
+}
+.footer h3{
+    font-family: 'Raleway', sans-serif;
+    color: #485167;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+      color: #485167 ;
+    line-height: 25px;
+}
+.footer a:hover{
+    font-size: 15px;
+     font-weight: bold;
+}
+.form-input{
+    width: 100%;
+    line-height: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid#FF4E00;
+    outline: 0;
+}
+.form-input:focus {
+  background-color: transparent;
+  box-shadow:none;
+}

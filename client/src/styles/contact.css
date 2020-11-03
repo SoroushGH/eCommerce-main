@@ -1,0 +1,68 @@
+.iframe{
+    width :100%; 
+    height : 400px; 
+}
+
+.map{
+	padding: 5rem 0;
+}
+
+.contact h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:0.4px;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    margin: 0 ;
+    padding: 50px 0;
+}
+.contact h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight:300;
+    font-style:normal;
+    font-variant:normal;
+    text-transform:uppercase;
+    letter-spacing:0.4px;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+}
+.content-section{
+	padding: 100px 0;
+}
+.contact p{
+    font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	line-height:31px;
+    letter-spacing:0.4px;
+    font-variant:normal;
+    text-transform:none;
+    text-decoration:none solid rgba(0, 0, 0, 0.87);
+    color: black;
+}
+.contact a{
+	color:#3F69AA;
+}
+.contact a:hover,a:focus{
+	text-decoration:none;
+	color:#26a5d3;
+}
+textarea.form-control{
+    height:200px !important;
+}
+.contactBtn{
+	background-color: rgb(211, 243, 240);
+    color: rgb(45, 156, 145);
+    /* border: 1px solid rgb(45, 156, 145) !important; */
+    border: 1px solid#2E4A62 !important;
+}
+.contactBtn:hover {
+    background-color: #766F57;
+    color: rgb(211, 243, 240) !important;
+}
+.form-control {
+    min-height: 50px !important;
+    border-radius: 0px !important;
+}
